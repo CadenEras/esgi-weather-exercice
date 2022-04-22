@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Weather Report</title>
+        <meta name="Weather Report" content="Get your local forecast !">
+        <link rel="icon" type="image/x-icon" href="https://imgur.com/W7AMyky.png">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="script.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Public+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div>
+                <h1>Weather Report</h1>
+            </div>
+        </header>
+        
+        <div id="lSection">
+            <p>Entrez une ville :</p>
+            <span>
+                <form action="" method="get" class="wSelection">
+                    <label for="location">Entrez une ville :</label>
+                    <input type="text" name="location" id="location">
+                    <input type="button" value="Chercher">
+                </form>
+            </span>
+            <!--<span>
+                <button id="geo">Géolocalisez-moi !</button>
+            </span>-->
+        </div>
+        <div id="wSection">
+
+        </div>
+        <footer>
+            Melissa Gries(CadenEras) - ESGI Paris
+        </footer>
+    </body>
+</html>
